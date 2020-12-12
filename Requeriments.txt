@@ -14,11 +14,11 @@ Cri-2-3: El hexadecimal debe contener sesis digitos
 
 Escenarios de prueba
 
-[] Convert HEX [255, 255, 255] to RGB '#FFFFFF'
-[] Convert HEX [225, 30, 148]  to RGB '#E11E94'
-[] Convert HEX [0, 255, 0]  to RGB '#00ff00'
-[] Convert HEX [128, 0, 0] to RGB '#800000'
-[] Convert HEX [30, 9, 0]  to RGB '#1e0900'
+[X] Convert HEX [255, 255, 255] to RGB '#FFFFFF'
+[X] Convert HEX [225, 30, 148]  to RGB '#E11E94'
+[X] Convert HEX [0, 255, 0]  to RGB '#00FF00'
+[X] Convert HEX [128, 0, 0] to RGB '#800000'
+[] Convert HEX [30, 9, 0]  to RGB '#1E0900'
 [] Convert HEX [1, 2, 3]  to RGB '#010203'
 [] Convert HEX [0, 0, 0]  to RGB '#000000'
 

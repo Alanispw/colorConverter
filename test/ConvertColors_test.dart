@@ -33,4 +33,9 @@ void main() {
     final res = colorConverter.rgbToHex([1, 2, 3]);
     expect(res, '#010203');
   });
+
+          test('Convert HEX [0,0,0] to RGB #000000', () {
+    final res = colorConverter.rgbToHex([0,0,0]);
+    expect(res, '#000000');
+  });
 }

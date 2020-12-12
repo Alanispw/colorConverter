@@ -20,4 +20,8 @@ void main() {
     final res = colorConverter.rgbToHex([0, 255, 0]);
     expect(res, '#00FF00');
   });
+        test('Convert HEX [128, 0, 0] to RGB #800000', () {
+    final res = colorConverter.rgbToHex([128, 0, 0]);
+    expect(res, '#800000');
+  });
 }

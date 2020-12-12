@@ -12,7 +12,6 @@ class ColorConverter {
 
   String intToHex(int value) {
     var hex = value.toRadixString(16);
-    if(hex.length < 2) hex = '0 $hex';
-    return hex;
+    return hex.length ==  1 ? '0' + hex : hex;
   }
 }

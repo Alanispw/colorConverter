@@ -12,4 +12,8 @@ void main() {
     final res = colorConverter.rgbToHex([255, 255, 255]);
     expect(res, '#FFFFFF');
   });
+    test('Convert HEX [225, 30, 148] to RGB #E11E94', () {
+    final res = colorConverter.rgbToHex([225, 30, 148]);
+    expect(res, '#E11E94');
+  });
 }
